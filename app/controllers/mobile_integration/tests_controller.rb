@@ -1,5 +1,5 @@
 module MobileIntegration
-  class TestsController < ActionController::Base
+  class TestsController < ::ApplicationController
     before_action :ensure_test_environment
 
     def setup
